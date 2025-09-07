@@ -60,12 +60,26 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+#quote-content-text {
+    /* Style this later */
+}
+
+#quote-content-name {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Sign up area */
 .sign-up-area {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px 20%;
+    background-color: #3882F6;
 }
 
 /* Footer copyright area */
@@ -73,4 +87,5 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    justify-content: center;
 }
