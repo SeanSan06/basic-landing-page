@@ -9,22 +9,39 @@ body {
     background-color: #1F2937;
 }
 
+#header-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero-content {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Main content area */
 .main-content-area {
     background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 /* Quote area */
 .quote-area {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Sign up area */
 .sign-up-area {
-    /* blank for now */
+    display: flex;
+    flex-direction: row;
 }
 
 /* Footer copyright area */
 .footer-copyright-area {
+    display: flex;
+    flex-direction: row;
     background-color: #1F2937;
 }
