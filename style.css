@@ -1,9 +1,11 @@
 /* Body */
 body {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero area */
+
 
 /* Main content area */
 
