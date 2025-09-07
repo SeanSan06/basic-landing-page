@@ -5,16 +5,26 @@ body {
 }
 
 /* Hero area */
-
+.hero-area {
+    background-color: #1F2937;
+}
 
 /* Main content area */
-
+.main-content-area {
+    background-color: white;
+}
 
 /* Quote area */
-
+.quote-area {
+    background-color: #E5E7EB;
+}
 
 /* Sign up area */
-
+.sign-up-area {
+    /* blank for now */
+}
 
 /* Footer copyright area */
-
+.footer-copyright-area {
+    background-color: #1F2937;
+}
