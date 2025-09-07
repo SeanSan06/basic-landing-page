@@ -33,9 +33,26 @@ body {
 
 /* Main content area */
 .main-content-area {
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    align-items: center;
+}
+
+#main-content-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content-four-img-slots {
     display: flex;
     flex-direction: row;
+    gap: 32px;
+}
+
+.main-content-img-slot {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Quote area */
