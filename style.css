@@ -12,6 +12,17 @@ body {
 #header-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+#header-content-title {
+    /* Style this later */
+}
+
+#header-content-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px
 }
 
 #hero-content {
