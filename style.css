@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 /* Hero area */
@@ -16,19 +17,37 @@ body {
 }
 
 #header-content-title {
-    /* Style this later */
+    color: #F9FAF8;
 }
 
 #header-content-links {
     display: flex;
     flex-direction: row;
-    gap: 16px
+    gap: 16px;
+    color: #E5E7EB;
 }
 
 #hero-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#hero-content-words h1 {
+    color: #F9FAF8;
+}
+
+
+#hero-content-words p, #hero-content-words button {
+    color: #E5E7EB;
+}
+
+#hero-content-words button {
+    background-color: #3882F6;
+}
+
+#hero-content-img {
+
 }
 
 /* Main content area */
