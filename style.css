@@ -101,6 +101,21 @@ body {
     background-color: #3882F6;
 }
 
+#sign-up-content-title-caption {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+#sign-up-content-button,  #sign-up-content-button button {
+    color: #E5E7EB;
+}
+
+#sign-up-content-button button {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+}
+
 /* Footer copyright area */
 .footer-copyright-area {
     display: flex;
