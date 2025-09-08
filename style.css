@@ -8,7 +8,7 @@ body {
 
 /* Hero area */
 .hero-area {
-    background-color: #1F2937;
+    background-color: black;
 }
 
 #header-content {
@@ -62,12 +62,14 @@ body {
     flex-direction: column;
     background-color: white;
     align-items: center;
+    margin: 32px;
 }
 
 #main-content-title, #main-content-title h3 {
     font-size: 36px;
     font-weight: 900;
     padding: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -82,6 +84,12 @@ body {
 
 #main-content-inner-planet-title, #main-content-outer-planet-title {
     font-size: 24px;
+}
+
+#main-content-inner-planets h5, #main-content-outer-planets h5{
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 0px;
 }
 
 #main-content-inner-planets, #main-content-outer-planets {
@@ -99,6 +107,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    border: 4px solid blueviolet;
+    border-radius: 36px;
 }
 
 .main-content-img-slot img {
