@@ -74,9 +74,14 @@ body {
 #main-content-four-img-slots {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 0;
     margin-right: 0;
     gap: 32px;
+}
+
+#main-content-inner-planet-title, #main-content-outer-planet-title {
+    font-size: 24px;
 }
 
 #main-content-inner-planets, #main-content-outer-planets {
