@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Hero area */
@@ -14,10 +15,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 #header-content-title {
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 #header-content-links {
@@ -31,15 +34,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 32px;
 }
 
 #hero-content-words h1 {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
 }
-
 
 #hero-content-words p, #hero-content-words button {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 #hero-content-words button {
@@ -47,7 +53,7 @@ body {
 }
 
 #hero-content-img {
-
+    /* Style this later */
 }
 
 /* Main content area */
@@ -61,6 +67,8 @@ body {
 #main-content-title {
     display: flex;
     flex-direction: column;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 #main-content-four-img-slots {
@@ -81,15 +89,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px;
 }
 
-#quote-content-text {
-    /* Style this later */
-}
-
-#quote-content-name {
-    display: flex;
-    flex-direction: row;
+#quote-content-text p, #quote-content-name p {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px;
 }
 
 /* Sign up area */
