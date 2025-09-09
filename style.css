@@ -30,6 +30,10 @@ body {
     color: #E5E7EB;
 }
 
+#header-content-links a {
+    color: #E5E7EB;
+}
+
 #hero-content {
     display: flex;
     flex-direction: row;
