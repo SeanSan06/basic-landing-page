@@ -61,19 +61,21 @@ body {
 .main-content-area {
     display: flex;
     flex-direction: column;
+    padding-bottom: 16px;
+
     background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-blue.jpeg");
     background-size: cover;
     background-position: center;
     border-top: 5px solid blueviolet;
     align-items: center;
-    margin: -4px;
 }
 
 #main-content-title, #main-content-title h3 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 900;
+    color: white;
     padding: 0px;
-    margin-top: 0px;
+    margin-top: 16px;
     margin-bottom: 0px;
 }
 
@@ -87,16 +89,19 @@ body {
 }
 
 #main-content-inner-planet-title, #main-content-outer-planet-title {
-    font-size: 24px;
+    font-size: 36px;
+    color: white;
 }
 
 #main-content-inner-planets h5, #main-content-outer-planets h5{
     font-size: 16px;
+    color: white;
     margin-top: 12px;
     margin-bottom: 0px;
 }
 
 #main-content-inner-planets, #main-content-outer-planets {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
