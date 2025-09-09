@@ -50,7 +50,23 @@ body {
 }
 
 #hero-content-words button {
-    background-color: blueviolet;
+    padding: 12px;
+    background: rgba(162, 107, 226, 0.5);
+    border-radius: 36px;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: none;
+    transition-duration: 0.35s;
+}
+
+#hero-content-words button:hover {
+    padding: 12px;
+    background: rgba(137, 43, 226, 0.5);
+    border-radius: 36px;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: none;
+    box-shadow: 0 0 10px 10px rgba(137, 43, 226, 0.25);
 }
 
 #hero-content-img img{
@@ -121,11 +137,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8px;
 
     /* border: 4px solid blueviolet;
     border-radius: 36px; */
 
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(137, 43, 226, 0.1);
     border-radius: 36px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.5px);
@@ -156,13 +173,27 @@ body {
 
 /* Sign up area */
 .sign-up-area {
+    background-image: url("images/outer-space-blue-pink.jpg");
+    background-size: cover;
+}
+
+.sign-up-content-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 35px 20%;
-    padding: 32px;
-    background-color: blueviolet;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 36px;
+    
+    background: rgba(137, 43, 226, 0.1);
+    border-radius: 36px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
 }
 
 #sign-up-content-title-caption {
@@ -185,8 +216,23 @@ body {
 }
 
 #sign-up-content-button button {
-    background-color: blueviolet;
-    border-color: #E5E7EB;
+    padding: 12px;
+    background: rgba(162, 107, 226, 0.5);
+    border-radius: 36px;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: none;
+    transition-duration: 0.35s;
+}
+
+#sign-up-content-button button:hover {
+    padding: 12px;
+    background: rgba(137, 43, 226, 0.5);
+    border-radius: 36px;
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: none;
+    box-shadow: 0 0 10px 10px rgba(137, 43, 226, 0.25);
 }
 
 /* Footer copyright area */
