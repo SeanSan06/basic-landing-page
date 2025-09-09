@@ -41,7 +41,7 @@ body {
     color: #F9FAF8;
     font-size: 60px;
     font-weight: 900;
-    text-shadow: 0 0 3px #F9FAF8, 0 0 6px #F9FAF8, 0 0 12px blueviolet;
+    text-shadow: 0 0 3px #F9FAF8, 0 0 6px #F9FAF8, 0 0 12px lightskyblue;
 }
 
 #hero-content-words p, #hero-content-words button {
@@ -51,7 +51,7 @@ body {
 
 #hero-content-words button {
     padding: 12px;
-    background: rgba(162, 107, 226, 0.5);
+    background: rgba(162, 214, 246, 0.5);
     border-radius: 36px;
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
@@ -61,12 +61,12 @@ body {
 
 #hero-content-words button:hover {
     padding: 12px;
-    background: rgba(137, 43, 226, 0.5);
+    background: rgba(135, 206, 250, 0.5);
     border-radius: 36px;
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
     border: none;
-    box-shadow: 0 0 10px 10px rgba(137, 43, 226, 0.25);
+    box-shadow: 0 0 10px 10px rgba(135, 206, 250, 0.25);
 }
 
 #hero-content-img img{
@@ -82,8 +82,8 @@ body {
     background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-blue.jpeg");
     background-size: cover;
     background-position: center;
-    border-top: 2.5px solid blueviolet;
-    box-shadow: 0 0 35px 5px blueviolet;
+    border-top: 2.5px solid lightskyblue;
+    box-shadow: 0 0 35px 5px lightskyblue;
     align-items: center;
 }
 
@@ -91,7 +91,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: white;
-    text-shadow: 0 0 3px #F9FAF8, 0 0 6px #F9FAF8, 0 0 12px blueviolet;
+    text-shadow: 0 0 3px #F9FAF8, 0 0 6px #F9FAF8, 0 0 12px lightskyblue;
     padding: 0px;
     margin-top: 16px;
     margin-bottom: 0px;
@@ -143,9 +143,9 @@ body {
     /* border: 4px solid blueviolet;
     border-radius: 36px; */
 
-    background: rgba(137, 43, 226, 0.1);
+    background: rgba(135, 206, 250, 0.1);
     border-radius: 36px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(135, 206, 250, 0.1);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
 }
@@ -159,7 +159,7 @@ body {
 
 /* Quote area */
 .quote-area {
-    background-color: rgb(200, 174, 225);
+    background-color: lightskyblue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,9 +198,9 @@ body {
     padding-right: 16px;
     gap: 36px;
     
-    background: rgba(137, 43, 226, 0.1);
+    background: rgba(135, 206, 250, 0.1);
     border-radius: 36px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(135, 206, 250, 0.1);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
 }
@@ -226,7 +226,7 @@ body {
 
 #sign-up-content-button button {
     padding: 12px;
-    background: rgba(162, 107, 226, 0.5);
+    background: rgba(162, 214, 246, 0.5);
     border-radius: 36px;
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
@@ -236,12 +236,12 @@ body {
 
 #sign-up-content-button button:hover {
     padding: 12px;
-    background: rgba(137, 43, 226, 0.5);
+    background: rgba(135, 206, 250, 0.5);
     border-radius: 36px;
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
     border: none;
-    box-shadow: 0 0 10px 10px rgba(137, 43, 226, 0.25);
+    box-shadow: 0 0 10px 10px rgba(135, 206, 250, 0.25);
 }
 
 /* Footer copyright area */
