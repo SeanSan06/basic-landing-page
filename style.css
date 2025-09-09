@@ -61,9 +61,12 @@ body {
 .main-content-area {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-blue.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid blueviolet;
     align-items: center;
-    margin: 32px;
+    margin: -4px;
 }
 
 #main-content-title, #main-content-title h3 {
