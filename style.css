@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     padding-bottom: 16px;
 
-    background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-blue.jpeg");
+    background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-nasa-large.webp");
     background-size: cover;
     background-position: center;
     border-top: 2.5px solid lightskyblue;
@@ -186,7 +186,7 @@ body {
 
 /* Sign up area */
 .sign-up-area {
-    background-image: url("images/outer-space-blue-pink.jpg");
+    background-image: url("images/outer-space-nasa.webp");
     background-size: cover;
 }
 
