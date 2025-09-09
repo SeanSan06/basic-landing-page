@@ -82,7 +82,8 @@ body {
     background: linear-gradient(to bottom, black 0%, black 15%, rgba(0, 0, 0, 0)), url("images/outer-space-blue.jpeg");
     background-size: cover;
     background-position: center;
-    border-top: 5px solid blueviolet;
+    border-top: 2.5px solid blueviolet;
+    box-shadow: 0 0 35px 5px blueviolet;
     align-items: center;
 }
 
@@ -165,10 +166,18 @@ body {
     padding: 32px;
 }
 
-#quote-content-text p, #quote-content-name p {
-    font-size: 36px;
+#quote-content-text p {
+    font-size: 18px;
+    font-weight: 150;
+    margin: 0px;
+    padding: 8px;
+}
+
+#quote-content-name p {
+    font-size: 24px;
     font-weight: 300;
     margin: 0px;
+    padding: 8px;
 }
 
 /* Sign up area */
